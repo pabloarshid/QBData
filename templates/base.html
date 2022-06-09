@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Hello Swoop!</title>
+        <style> body { font-family: Arial, serif; margin: 35px; } </style>
+    </head>
+
+    <body>
+        <p><a href="{{ url_for('index') }}">Home</a>
+        <div id="content">{% block content %}{% endblock %}</div>
+    </body>
+
+</html>
